@@ -12,10 +12,18 @@
     background: #FD6E0A;
     padding: 18px 35px;
     color: #FFFFFF;
-    height: 64px;
     border-radius: 5px;
     border: 0;
 
+}
+.btn-secondary {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FD6E0A;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: 0.5px solid #FD6E0A;
 }
 
 /* header and navigation styles */
@@ -29,7 +37,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 .nav-title {
     font-weight: 800;
