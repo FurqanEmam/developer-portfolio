@@ -21,7 +21,11 @@
 /* header and navigation styles */
 .header {
     background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -67,6 +71,36 @@ nav li {
 .banner-description {
     font-size: 18px;
     line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* about me styles */
+.about{
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 156px;
+}
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
     color: #757575;
     margin-bottom: 30px;
 }
