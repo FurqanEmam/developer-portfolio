@@ -211,14 +211,22 @@ section {
     text-align: left;
 }
 
-.contact input[type="text"], input[type='email'], textarea {
+.contact input[type="text"], input[type='email'] {
     margin-bottom: 24px;
-    height: 64px;
+    height: 34px;
     border: 0;
     width: 100%;
     padding: 18px 30px;
 }
-
+.contact textarea{
+    height: 164px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding-top: 18px;
+    padding-left: 30px;
+}
 .contact a {
     text-decoration: none;
+    margin-right: 24px;
 }
