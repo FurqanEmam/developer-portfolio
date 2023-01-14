@@ -238,3 +238,50 @@ section {
     text-decoration: none;
     margin-right: 24px;
 }
+/* responsive styles */
+@media screen and (max-width: 576px){
+    nav ul{
+        flex-direction: column;
+    }
+    .banner{
+        margin: 0 15px;
+    }
+    .banner img{
+        width: 100%;
+    }
+    
+    .header{
+        background-image: none;
+    }
+    nav,
+    .banner,
+    .skills-container, 
+    .resume-content, 
+    .about-info-container, 
+    .contact{
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+    
+    .about{
+        padding: 10px;
+    }
+    .contact input[type="text"], input[type='email'], textarea{
+        padding: 0 0 0 5px;
+    }
+}    
+
+@media screen and (min-width: 577px) and (max-width: 992px){
+    
+    .about, .contact{
+        padding: 20px;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    .contact input[type="text"], input[type='email'], textarea{
+        padding: 0 0 0 5px;
+    }
+}
+
+
